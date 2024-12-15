@@ -1,0 +1,87 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Dataset for the IEEECIHM2025 paper "Enhancing Proactive
+  Patient Outreach with Medical Message Classification Using
+  Synthetic Data from ChatGPT"
+message: >-
+  If you use this dataset, please cite it using the metadata
+  from this file.
+type: dataset
+authors:
+  - given-names: Adriana
+    family-names: Camargo de Brito
+    email: adrianab@ipt.br
+    affiliation: IPT-Institute for Technological Research
+    orcid: 'https://orcid.org/0000-0003-4019-6063'
+  - given-names: Adriano
+    family-names: Galindo Leal
+    email: leal@ipt.br
+    affiliation: IPT-Institute for Technological Research
+    orcid: 'https://orcid.org/0000-0001-7114-6830'
+  - given-names: 'Gustavo '
+    family-names: Torres Custódio
+    orcid: 'https://orcid.org/0000-0002-3215-1693'
+    affiliation: IPT-Institute for Technological Research
+    email: gustavotorres@ipt.br
+  - given-names: 'Edilson '
+    family-names: José Rodrigues
+    email: edilsonjr@ipt.br
+    affiliation: IPT-Institute for Technological Research
+    orcid: 'https://orcid.org/0000-0003-3505-7202'
+  - given-names: Michele
+    family-names: ' Viana Martins'
+    name-particle: 'Marcia '
+    affiliation: Federal University of Viçosa
+    orcid: 'https://orcid.org/0000-0002-0790-5625'
+  - given-names: 'Vinícius '
+    family-names: Monteiro de Paula Guirado
+    affiliation: University of São Paulo Medical School
+    orcid: 'https://orcid.org/0000-0002-7782-3609'
+repository-code: 'https://github.com/IPT-TD-SIAA/IEEECIHM2025.git'
+abstract: >
+  The increasing demand for proactive patient outreach and
+  follow-up within health insurance providers and large
+  hospital systems has led to the adoption of automated
+  message classification systems. Although state-of-the-art
+  tools like Azure and OpenAI o1 series are available, their
+  costs are prohibitive for small companies. Therefore,
+  using cost-effective traditional tools for text
+  classification is still a valuable alternative.
+
+  This study investigates how OpenAI's ChatGPT can generate
+  synthetic data to balance class distributions in medical
+  message datasets and improve the performance of binary
+  classification models. The primary aim is to classify
+  messages that indicate medical needs, aiding in patient
+  outreach and efficient resource allocation. We applied
+  Natural Language Processing (NLP) techniques, including
+  Logistic Regression, Naive Bayes, Random Forest, XGBoost,
+  and BERTimbau, a Portuguese transformer-based model.
+  Models were trained on both original and augmented
+  datasets, and results showed a significant increase in
+  classification accuracy, particularly with BERTimbau,
+  whose performance improved from 84\% to 99\%. Synthetic
+  data also reduced overfitting by narrowing the gap between
+  training and validation accuracies while improving model
+  robustness on unseen data. Our findings demonstrate that
+  synthetic data from ChatGPT effectively addresses class
+  imbalance, improving the robustness and accuracy of
+  medical message classification models. However, challenges
+  remain in correctly classifying non-medical messages,
+  indicating that further refinement in synthetic data
+  generation is necessary for optimal performance in
+  real-world scenarios. These results suggest that such
+  approaches can significantly enhance automated patient
+  engagement efforts.
+keywords:
+  - Machine Learning
+  - Transformer Neural Networks
+  - Synthetic Data
+  - Messages Classification
+  - Medical Field.
+license: MIT-Modern-Variant
+version: '1.0'
+date-released: '2024-12-16'
