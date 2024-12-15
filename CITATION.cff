@@ -80,8 +80,10 @@ keywords:
   - Machine Learning
   - Transformer Neural Networks
   - Synthetic Data
-  - Messages Classification
-  - Medical Field.
+  - Healthcare communication
+  - Clinical decision support systems
+  - Data augmentation
+  - Imbalanced datasets
 license: MIT-Modern-Variant
 version: '1.0'
 date-released: '2024-12-16'
